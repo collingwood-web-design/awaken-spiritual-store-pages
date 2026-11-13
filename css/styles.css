@@ -379,7 +379,7 @@ p {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr);
   gap: 2.5rem;
-  align-items: center;
+  align-items: start;
   padding: 3.5rem 0 2rem;
 }
 
@@ -447,13 +447,16 @@ p {
 }
 
 .contact__map {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
   min-height: 100%;
 }
 
 .map-embed {
   width: 100%;
   height: 100%;
-  min-height: 420px;
+  min-height: 320px;
   border: 0;
   display: block;
 }
@@ -527,12 +530,20 @@ p {
   padding: 0 0 3rem;
 }
 
-.directions blockquote {
-  margin: 0 0 1.25rem;
+.directions-card {
+  margin: 0;
   padding: 1rem 1.25rem;
   border-left: 3px solid var(--heading-alt);
   background: rgba(243, 243, 240, 0.85);
   color: var(--text);
+}
+
+.directions-card p:last-child {
+  margin-bottom: 0;
+}
+
+.directions .directions-card {
+  margin-bottom: 1.25rem;
 }
 
 .directions a {
