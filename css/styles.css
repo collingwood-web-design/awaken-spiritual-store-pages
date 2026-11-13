@@ -11,6 +11,9 @@
   --max: 1080px;
   --font-body: "Lato", Helvetica, Arial, sans-serif;
   --font-heading: "Roboto", Helvetica, Arial, sans-serif;
+  --bg-atmosphere:
+    radial-gradient(ellipse at 50% 0%, rgba(145, 198, 194, 0.28), transparent 55%),
+    linear-gradient(180deg, #f7f6f2 0%, #ffffff 70%);
 }
 
 *,
@@ -369,7 +372,7 @@ p {
 
 /* Contact */
 .section--contact {
-  background-color: #fff;
+  background: var(--bg-atmosphere);
 }
 
 .contact {
@@ -581,9 +584,7 @@ p {
   align-items: center;
   padding-top: 3rem;
   padding-bottom: 4rem;
-  background:
-    radial-gradient(ellipse at 50% 0%, rgba(145, 198, 194, 0.28), transparent 55%),
-    linear-gradient(180deg, #f7f6f2 0%, #ffffff 70%);
+  background: var(--bg-atmosphere);
 }
 
 .error-404__inner {
