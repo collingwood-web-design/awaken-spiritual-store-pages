@@ -577,11 +577,11 @@ p {
 /* FAQ */
 .faq-intro {
   padding-top: 2.5rem;
-  padding-bottom: 1rem;
+  padding-bottom: 2.5rem;
 }
 
 .faq-section {
-  padding-top: 0;
+  padding-top: 1.5rem;
 }
 
 .faq-list {
