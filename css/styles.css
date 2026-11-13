@@ -370,10 +370,6 @@ p {
 /* Contact */
 .section--contact {
   background-color: #fff;
-  background-image: url("https://media.cwd-cdn.com/awaken-spiritual-store/images/contact-leaves.png");
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-size: contain;
 }
 
 .contact {
