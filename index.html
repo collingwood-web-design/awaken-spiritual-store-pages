@@ -3,23 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Awaken Spiritual Store | Collingwood</title>
-  <meta name="description" content="Awaken Spiritual Store in Collingwood offers crystals, tarot, oracle cards, books, incense, jewelry, smudging tools, and spiritual healing support since 2018.">
+  <title>Awaken Spiritual Store | Crystals &amp; Tarot in Collingwood, ON</title>
+  <meta name="description" content="Awaken Spiritual Store in downtown Collingwood, Ontario — crystals, tarot and oracle cards, books, incense, jewelry, smudging tools, and spiritual healing support since 2018.">
+  <meta name="theme-color" content="#6fb4b0">
+  <meta name="geo.region" content="CA-ON">
+  <meta name="geo.placename" content="Collingwood">
   <link rel="canonical" href="https://awaken.store/">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Awaken Spiritual Store">
-  <meta property="og:title" content="Awaken Spiritual Store | Collingwood">
-  <meta property="og:description" content="Awaken Spiritual Store in Collingwood offers crystals, tarot, oracle cards, books, incense, jewelry, smudging tools, and spiritual healing support since 2018.">
+  <meta property="og:title" content="Awaken Spiritual Store | Crystals &amp; Tarot in Collingwood, ON">
+  <meta property="og:description" content="Awaken Spiritual Store in downtown Collingwood, Ontario — crystals, tarot and oracle cards, books, incense, jewelry, smudging tools, and spiritual healing support since 2018.">
   <meta property="og:url" content="https://awaken.store/">
   <meta property="og:image" content="https://media.cwd-cdn.com/awaken-spiritual-store/images/hero-penny.jpg">
+  <meta property="og:image:width" content="800">
+  <meta property="og:image:height" content="800">
   <meta property="og:locale" content="en_CA">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Awaken Spiritual Store | Collingwood">
-  <meta name="twitter:description" content="Crystals, tarot, oracle cards, and spiritual healing support in Collingwood since 2018.">
+  <meta name="twitter:title" content="Awaken Spiritual Store | Collingwood, ON">
+  <meta name="twitter:description" content="Crystals, tarot, oracle cards, and spiritual healing support in downtown Collingwood since 2018.">
   <meta name="twitter:image" content="https://media.cwd-cdn.com/awaken-spiritual-store/images/hero-penny.jpg">
   <link rel="icon" href="https://media.cwd-cdn.com/awaken-spiritual-store/images/favicon-32.jpg" sizes="32x32" type="image/jpeg">
   <link rel="icon" href="https://media.cwd-cdn.com/awaken-spiritual-store/images/favicon-192.jpg" sizes="192x192" type="image/jpeg">
   <link rel="apple-touch-icon" href="https://media.cwd-cdn.com/awaken-spiritual-store/images/favicon-180.jpg">
+  <link rel="preconnect" href="https://media.cwd-cdn.com" crossorigin>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
@@ -27,39 +33,81 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Store",
-    "@id": "https://awaken.store/#store",
-    "name": "Awaken Spiritual Store",
-    "url": "https://awaken.store/",
-    "image": "https://media.cwd-cdn.com/awaken-spiritual-store/images/hero-penny.jpg",
-    "logo": "https://media.cwd-cdn.com/awaken-spiritual-store/images/logo.png",
-    "description": "Spiritual store in Collingwood offering crystals, tarot, oracle cards, books, incense, jewelry, smudging tools, and healing support since 2018.",
-    "telephone": "+1-705-293-8811",
-    "email": "awakenspiritualstore@gmail.com",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "207 Hurontario St Unit 2",
-      "addressLocality": "Collingwood",
-      "addressRegion": "ON",
-      "postalCode": "L9Y 2M1",
-      "addressCountry": "CA"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 44.4977076,
-      "longitude": -80.2159663
-    },
-    "openingHoursSpecification": [
+    "@graph": [
       {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-        "opens": "12:00",
-        "closes": "17:00"
+        "@type": "WebSite",
+        "@id": "https://awaken.store/#website",
+        "url": "https://awaken.store/",
+        "name": "Awaken Spiritual Store",
+        "description": "Spiritual and metaphysical store in Collingwood, Ontario.",
+        "publisher": { "@id": "https://awaken.store/#store" },
+        "inLanguage": "en-CA"
+      },
+      {
+        "@type": ["Store", "LocalBusiness"],
+        "@id": "https://awaken.store/#store",
+        "name": "Awaken Spiritual Store",
+        "url": "https://awaken.store/",
+        "image": [
+          "https://media.cwd-cdn.com/awaken-spiritual-store/images/hero-penny.jpg",
+          "https://media.cwd-cdn.com/awaken-spiritual-store/images/learn-heal.jpg",
+          "https://media.cwd-cdn.com/awaken-spiritual-store/images/penny-about.jpg"
+        ],
+        "logo": "https://media.cwd-cdn.com/awaken-spiritual-store/images/logo.png",
+        "description": "Spiritual store in downtown Collingwood offering crystals, tarot, oracle cards, books, incense, jewelry, smudging tools, and healing support since 2018.",
+        "telephone": "+1-705-293-8811",
+        "email": "awakenspiritualstore@gmail.com",
+        "priceRange": "$$",
+        "currenciesAccepted": "CAD",
+        "paymentAccepted": "Cash, Credit Card, Debit Card",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "207 Hurontario St Unit 2",
+          "addressLocality": "Collingwood",
+          "addressRegion": "ON",
+          "postalCode": "L9Y 2M1",
+          "addressCountry": "CA"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 44.4977076,
+          "longitude": -80.2159663
+        },
+        "hasMap": "https://www.google.com/maps?cid=11267891789084618243",
+        "areaServed": [
+          { "@type": "City", "name": "Collingwood" },
+          { "@type": "AdministrativeArea", "name": "South Georgian Bay" }
+        ],
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+            "opens": "12:00",
+            "closes": "17:00"
+          }
+        ],
+        "sameAs": [
+          "https://www.facebook.com/awakenspiritualstore",
+          "https://www.instagram.com/awakenspiritualstore/"
+        ],
+        "review": [
+          {
+            "@type": "Review",
+            "reviewBody": "I had the most amazing tarot card reading. The flow and the insights of the reading was exceptional! The shop has wonderful products and I found beautiful oracle cards and crystals. A visit is a MUST!!",
+            "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+          },
+          {
+            "@type": "Review",
+            "reviewBody": "This tiny store packs a punch in both service and quality… tons of decks of oracles, many open so you can get a real feel for them, and great staff. Penny is kind and knowledgeable.",
+            "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+          },
+          {
+            "@type": "Review",
+            "reviewBody": "Awaken Spiritual Store is a positive and welcoming space with so much to offer. The staff is so knowledgeable and the readers are amazing.",
+            "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+          }
+        ]
       }
-    ],
-    "sameAs": [
-      "https://www.facebook.com/awakenspiritualstore",
-      "https://www.instagram.com/awakenspiritualstore/"
     ]
   }
   </script>
@@ -109,7 +157,7 @@
       </div>
 
       <div class="container split">
-        <img src="https://media.cwd-cdn.com/awaken-spiritual-store/images/learn-heal.jpg" width="1200" height="900" alt="Oracle decks and journals displayed on a table inside Awaken Spiritual Store">
+        <img src="https://media.cwd-cdn.com/awaken-spiritual-store/images/learn-heal.jpg" width="1200" height="900" loading="lazy" alt="Oracle decks and journals displayed on a table inside Awaken Spiritual Store">
         <div>
           <p>A place where you are honoured, a place of beauty, a place of calm and presence.</p>
           <p>Whether it’s your first time entering a spiritual store, or just another step on your spiritual path, we offer products and services for all.</p>
@@ -128,7 +176,7 @@
 
     <section class="section">
       <div class="container trio">
-        <img src="https://media.cwd-cdn.com/awaken-spiritual-store/images/crystals-1.jpg" width="900" height="1200" alt="Large purple amethyst crystal geode">
+        <img src="https://media.cwd-cdn.com/awaken-spiritual-store/images/crystals-1.jpg" width="900" height="1200" loading="lazy" alt="Large purple amethyst crystal geode">
         <div class="video-wrap">
           <iframe
             src="https://www.youtube.com/embed/EtI-njw0G7g?rel=0"
@@ -137,7 +185,7 @@
             allowfullscreen
             loading="lazy"></iframe>
         </div>
-        <img src="https://media.cwd-cdn.com/awaken-spiritual-store/images/crystals-2.jpg" width="900" height="1200" alt="Crystal jewelry and pendants hanging in the store">
+        <img src="https://media.cwd-cdn.com/awaken-spiritual-store/images/crystals-2.jpg" width="900" height="1200" loading="lazy" alt="Crystal jewelry and pendants hanging in the store">
       </div>
 
       <div class="container center" style="padding-top: 3rem;">
@@ -146,12 +194,12 @@
       </div>
 
       <div class="container grid-2">
-        <img src="https://media.cwd-cdn.com/awaken-spiritual-store/images/rocks-crystals.jpg" width="1000" height="750" alt="Raw crystals and mineral clusters near a sunny window">
-        <img src="https://media.cwd-cdn.com/awaken-spiritual-store/images/crystals-more.jpg" width="1000" height="750" alt="Bowl of tumbled stones and heart-shaped crystals">
+        <img src="https://media.cwd-cdn.com/awaken-spiritual-store/images/rocks-crystals.jpg" width="1000" height="750" loading="lazy" alt="Raw crystals and mineral clusters near a sunny window">
+        <img src="https://media.cwd-cdn.com/awaken-spiritual-store/images/crystals-more.jpg" width="1000" height="750" loading="lazy" alt="Bowl of tumbled stones and heart-shaped crystals">
       </div>
       <div class="container grid-2">
-        <img src="https://media.cwd-cdn.com/awaken-spiritual-store/images/books.jpg" width="1200" height="900" alt="Tarot and oracle card decks on wooden shelves">
-        <img src="https://media.cwd-cdn.com/awaken-spiritual-store/images/smudge.jpg" width="1200" height="900" alt="Sage smudge sticks and incense for cleansing rituals">
+        <img src="https://media.cwd-cdn.com/awaken-spiritual-store/images/books.jpg" width="1200" height="900" loading="lazy" alt="Tarot and oracle card decks on wooden shelves">
+        <img src="https://media.cwd-cdn.com/awaken-spiritual-store/images/smudge.jpg" width="1200" height="900" loading="lazy" alt="Sage smudge sticks and incense for cleansing rituals">
       </div>
 
       <div class="container center" style="padding-top: 2rem;">
@@ -160,7 +208,7 @@
     </section>
 
     <section class="full-bleed" aria-label="Believe">
-      <img src="https://media.cwd-cdn.com/awaken-spiritual-store/images/believe.jpg" width="1024" height="361" alt="Believe ornament hanging with driftwood and a dreamcatcher">
+      <img src="https://media.cwd-cdn.com/awaken-spiritual-store/images/believe.jpg" width="1024" height="361" loading="lazy" alt="Believe ornament hanging with driftwood and a dreamcatcher">
     </section>
 
     <section class="instagram container">
